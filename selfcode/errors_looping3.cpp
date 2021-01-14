@@ -6,5 +6,5 @@ int main (void){
     printf("world\n");
   }
   return 0;
-}
+} //this is a program
 /*Hey this is a human code error*/
