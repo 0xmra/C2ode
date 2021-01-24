@@ -9,7 +9,7 @@ int main() {
 
 
 /*                ----NOTE----
-Variable names can use:  
+Variable names can use:
 lowercase and uppercase letters (characters) and digits
 do not use special characters like @ # & " ...
 do not use accented characters like é è à ...
