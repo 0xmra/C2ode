@@ -9,6 +9,8 @@ int main(void) {
     printf("%d x io = %d \n", num, io);
     num = num +1;
     //io = io *num;
+    // this is a git test command
+  
   }
   return 0;
 }
