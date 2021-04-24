@@ -13,7 +13,7 @@ int main (void) {
       printf("\n");
       printf("| X | o | X | o | X | o |");
       printf("\n");
-    } // causing an print error 
+    } // causing an print error
 
   printf("+");
   for (i = 0; i <23; i++)
@@ -21,4 +21,4 @@ int main (void) {
   printf("+");
 
   return 0;
-} this is a pro
+} this is a noob
