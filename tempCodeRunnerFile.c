@@ -1,0 +1,1 @@
+printf("When calling the function value of a = %d\n" , *a);
