@@ -221,7 +221,13 @@ void multiply(int arr1[10][10], int arr2[10][10], int r, int c)
 int main()
 {
     int operation, row, column, res, res1;
-    printf("Enter an operation you wish to perform\n");
+    printf("Enter the number of the operation you wish to perform\n");
+    printf("\n");
+    printf("1:Addition       2:Subtraction \n");
+    printf("3:Uppertriangle  4:Lowertriangle \n");
+    printf("5:Trace          6:Transpose \n");
+    printf("7:Symmetry       8:Multiply \n");
+    printf("\n");
     scanf("%d", &operation);
 
     printf("Enter number of rows and columns\n");
