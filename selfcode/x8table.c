@@ -3,11 +3,14 @@ int main(void) {
   int i;
   int io = 0;
   int num = 0;
+  int mul; // this will make sure that it uses any number to print the tables.
+  
+  scanf("%d", &mul);
 
   for (i = 0; i < 11 ; i++) {
-    printf("%dx8 = %d \n", num, io );
+    printf("%dx%d = %d \n", num, mul, io );
     num = num +1;
-    io = io +8;
+    io = io + mul;
   }
   return 0;
 }
