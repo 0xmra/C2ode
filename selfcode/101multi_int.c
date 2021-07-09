@@ -8,30 +8,31 @@ int main (void) {
     int Times = 0;
     int out = 0;
     int sum = 0;
-    int i;
 
     printf("How many times you wnat to repeat? \n");
     scanf("%d", &Times);
 
-    for(i = 0; i < Times; i++ ) {
-
-        printf("Set Engine Power:");
+    for(int i = 0; i < Times; i++ ){
+        printf("Please enter an value for Engine Power:");
         scanf("%d", &enginePower);
+        printf("Set Engine Poweris set as: %d\n",enginePower);
 
-        printf("Set Resistance:");
+        printf("Please enter an value for Resistance:");
         scanf("%d", &resistance);
+        printf("Set Resistance is set as: %d\n",resistance);
 
-        printf("Set weight:");
+        printf("Please enter an value for Weight:");
         scanf("%d", &weight);
+        printf("weight is set as: %d\n",weight);
 
-        printf("Set Height:");
+        printf("Please enter an value for Height:");
         scanf("%d", &height);
+        printf("Height is set as: %d\n",height);
 
         out = (enginePower + resistance) * (weight - height);
         sum = sum + out;
-        printf("sum equals %d\n",out);
+        printf("sum equals %d\n",sum);
     }
-
     return 0;
 }
 // (enginePower + resistance) * (weight - height)
